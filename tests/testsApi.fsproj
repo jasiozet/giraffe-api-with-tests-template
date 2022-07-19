@@ -26,6 +26,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\api\saturnFromScratch.fsproj" />
+    <ProjectReference Include="..\api\giraffeApi.fsproj" />
   </ItemGroup>
 </Project>
