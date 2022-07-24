@@ -32,8 +32,8 @@ let configureApp (app : IApplicationBuilder) =
     // Add Giraffe Endpoints to ASP.NET core
     app
       .UseRouting()
-      .UseEndpoints(fun e -> e.MapGiraffeEndpoints(endpoints))
-    |> ignore
+      .UseGiraffe(endpoints)
+      .UseGiraffe(defaultPage)
 
 let configureServices (services : IServiceCollection) =
     // Add Giraffe dependencies
@@ -56,4 +56,4 @@ let main _ =
 //http://localhost:5000/add/2/3 => 5
 //http://localhost:5000/mul/2/3 => 6
 //http://localhost:5000/json => {"language":"F#","message":"Hello World"}
-//http://localhost:5000/ => htmled I |> F# Hello World
+//http://localhost:5000/anyRoute => htmled I |> F# Hello World
