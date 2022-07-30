@@ -19,7 +19,9 @@ Other options:
 
 * [Giraffe](https://giraffe.wiki/)
 
-Take a look at similar [Saturn template](https://github.com/jasiozet/saturn-api-with-tests-template)
+Take a look at similar
+* [Saturn template](https://github.com/jasiozet/saturn-api-with-tests-template)
+* [Falco template](https://github.com/jasiozet/falco-api-with-tests-template)
 
 ## Stuff inside TESTS
 * [xUnit](https://xunit.net/)
@@ -36,7 +38,7 @@ Just remove the ```tests``` folder!
 ## Why make this template?
 
 Comparison with Saturn template I already made
-This template is meant a nice fresh start for them, without much complication
+This template is meant a nice fresh start, without much complication
 
 ## Routes to test:
 * http://localhost:5000/add/2/3 => 5
